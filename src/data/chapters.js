@@ -21,7 +21,7 @@ const chapters = [
   },
   {
     id: 3,
-    title: 'Vessels',
+    title: 'Pool',
     subtitle: 'Chapter III',
     description:
       'Rusted hulls beached on sand that has never known rain. The creak of metal that once split ocean.',
