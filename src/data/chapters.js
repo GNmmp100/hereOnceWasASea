@@ -26,7 +26,7 @@ const chapters = [
     description:
       'Rusted hulls beached on sand that has never known rain. The creak of metal that once split ocean.',
     image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=900&q=80',
-    audio: '/audio/chapter-03.mp3',
+    audio: '/audio/pool.wav',
   },
   {
     id: 4,
