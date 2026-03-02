@@ -7,13 +7,14 @@ export default function Home() {
       <header className="home-header">
         <div className="home-header__eyebrow">An Audio Art Work</div>
         <h1 className="home-header__title">Here Once<br />Was A Sea</h1>
+        <div className="home-header__divider" />
         <p className="home-header__description">
           The Aral Sea was once the fourth largest lake on Earth. Between 1960 and 2000,
           Soviet-era irrigation diverted the rivers that fed it. Today, 90% of its water is gone.
           This is a listening journey through what remains — and what does not.
         </p>
         <p className="home-header__instruction">
-          Select a chapter below, or scan the QR code for each location.
+          Select a chapter or scan a QR code at each location.
         </p>
       </header>
 
@@ -31,7 +32,6 @@ export default function Home() {
                 className="chapter-card__image"
                 loading="lazy"
               />
-              <div className="chapter-card__overlay" />
             </div>
             <div className="chapter-card__body">
               <span className="chapter-card__eyebrow">{chapter.subtitle}</span>
