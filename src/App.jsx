@@ -5,7 +5,7 @@ import NotFound from './pages/NotFound'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/sea">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/chapter/:id" element={<Chapter />} />
