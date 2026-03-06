@@ -36,10 +36,10 @@ export default function Chapter() {
     if (!audio) return
     if (playing) {
       audio.pause()
+      setPlaying(false)
     } else {
-      audio.play()
+      audio.play().then(() => setPlaying(true)).catch(() => setPlaying(false))
     }
-    setPlaying(!playing)
   }
 
   function skip(seconds) {
@@ -121,7 +121,7 @@ export default function Chapter() {
       <div className="chapter-player">
         <audio
           ref={audioRef}
-          src={chapter.audio}
+          src={`${import.meta.env.BASE_URL}${chapter.audio}`}
           onTimeUpdate={handleTimeUpdate}
           onLoadedMetadata={handleLoadedMetadata}
           onEnded={handleEnded}
