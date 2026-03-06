@@ -38,7 +38,7 @@ const chapters = [
     subtitle: 'Chapter IV',
     description:
       'Voices recorded in the village of Muynak — men who learned to fish on water that has since retreated 150 kilometres.',
-    image: 'images/bodies-of-wate.png',
+    image: 'images/bodies-of-water.png',
     audio: 'audio/Bodies_of_Water.wav',
   },
   {
