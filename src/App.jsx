@@ -8,7 +8,7 @@ export default function App() {
     <BrowserRouter basename="/sea">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/chapter/:id" element={<Chapter />} />
+        <Route path="/chapter/:slug" element={<Chapter />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

@@ -3,8 +3,8 @@ import { useRef, useState, useEffect } from 'react'
 import chapters from '../data/chapters'
 
 export default function Chapter() {
-  const { id } = useParams()
-  const chapter = chapters.find((c) => c.id === Number(id))
+  const { slug } = useParams()
+  const chapter = chapters.find((c) => c.slug === slug)
 
   const audioRef = useRef(null)
   const [playing, setPlaying] = useState(false)
@@ -17,7 +17,7 @@ export default function Chapter() {
     setCurrentTime(0)
     setDuration(0)
     setLoaded(false)
-  }, [id])
+  }, [slug])
 
   if (!chapter) {
     return (
@@ -184,7 +184,7 @@ export default function Chapter() {
       {/* Chapter navigation */}
       <nav className="chapter-nav" aria-label="Chapter navigation">
         {prev ? (
-          <Link to={`/chapter/${prev.id}`} className="chapter-nav__link chapter-nav__link--prev">
+          <Link to={`/chapter/${prev.slug}`} className="chapter-nav__link chapter-nav__link--prev">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <polyline points="15 18 9 12 15 6" />
             </svg>
@@ -196,7 +196,7 @@ export default function Chapter() {
         ) : <div />}
 
         {next ? (
-          <Link to={`/chapter/${next.id}`} className="chapter-nav__link chapter-nav__link--next">
+          <Link to={`/chapter/${next.slug}`} className="chapter-nav__link chapter-nav__link--next">
             <span>
               <small>Next</small>
               {next.title}

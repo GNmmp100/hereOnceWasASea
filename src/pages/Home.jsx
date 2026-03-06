@@ -22,7 +22,7 @@ export default function Home() {
         {chapters.map((chapter) => (
           <Link
             key={chapter.id}
-            to={`/chapter/${chapter.id}`}
+            to={`/chapter/${chapter.slug}`}
             className="chapter-card"
           >
             <div className="chapter-card__image-wrap">

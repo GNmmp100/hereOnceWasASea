@@ -3,6 +3,7 @@
 const chapters = [
   {
     id: 1,
+    slug: 'prologue',
     title: 'Prologue',
     subtitle: 'Chapter I',
     description:
@@ -12,6 +13,7 @@ const chapters = [
   },
   {
     id: 2,
+    slug: 'stone-wall',
     title: 'Stone Wall',
     subtitle: 'Chapter II',
     description:
@@ -21,6 +23,7 @@ const chapters = [
   },
   {
     id: 3,
+    slug: 'flame',
     title: 'Flame',
     subtitle: 'Chapter III',
     description:
@@ -30,6 +33,7 @@ const chapters = [
   },
   {
     id: 4,
+    slug: 'bodies-of-water',
     title: 'Bodies of Water',
     subtitle: 'Chapter IV',
     description:
@@ -39,6 +43,7 @@ const chapters = [
   },
   {
     id: 5,
+    slug: 'makom',
     title: 'Makom',
     subtitle: 'Chapter V',
     description:
@@ -48,6 +53,7 @@ const chapters = [
   },
   {
     id: 6,
+    slug: 'clouds',
     title: 'Clouds',
     subtitle: 'Chapter VI',
     description:
