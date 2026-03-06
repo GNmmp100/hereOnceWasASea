@@ -8,7 +8,7 @@ const chapters = [
     description:
       'Salt and stone. The first breath of a coast that no longer exists — recorded at the edge of a receding tide.',
     image: 'https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=900&q=80',
-    audio: 'audio/Prologue_new_mixdown.wav',
+    audio: 'audio/Prologue.wav',
   },
   {
     id: 2,
@@ -35,7 +35,7 @@ const chapters = [
     description:
       'Voices recorded in the village of Muynak — men who learned to fish on water that has since retreated 150 kilometres.',
     image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=900&q=80',
-    audio: 'audio/Bodies of Water.wav',
+    audio: 'audio/Bodies_of_Water.wav',
   },
   {
     id: 5,
