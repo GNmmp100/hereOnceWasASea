@@ -8,7 +8,7 @@ const chapters = [
     subtitle: 'Chapter I',
     description:
       'Salt and stone. The first breath of a coast that no longer exists — recorded at the edge of a receding tide.',
-    image: 'images/prologue.jpg',
+    image: 'https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=900&q=80',
     audio: 'audio/Prologue.wav',
   },
   {
@@ -18,7 +18,7 @@ const chapters = [
     subtitle: 'Chapter II',
     description:
       'Beneath what was once fathoms of water, the desert floor holds its breath. A field recording of wind crossing dried seabed.',
-    image: 'images/stone-wall.jpg',
+    image: 'https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=900&q=80',
     audio: 'audio/Stone Wall.wav',
   },
   {
@@ -28,7 +28,7 @@ const chapters = [
     subtitle: 'Chapter III',
     description:
       'Rusted hulls beached on sand that has never known rain. The creak of metal that once split ocean.',
-    image: 'images/flame.jpg',
+    image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=900&q=80',
     audio: 'audio/Flame.wav',
   },
   {
@@ -38,7 +38,7 @@ const chapters = [
     subtitle: 'Chapter IV',
     description:
       'Voices recorded in the village of Muynak — men who learned to fish on water that has since retreated 150 kilometres.',
-    image: 'images/bodies-of-water.jpg',
+    image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=900&q=80',
     audio: 'audio/Bodies_of_Water.wav',
   },
   {
@@ -48,7 +48,7 @@ const chapters = [
     subtitle: 'Chapter V',
     description:
       'Each spring the wind lifts salt and pesticide from the exposed lakebed and carries it across the steppe. A composition built from these storms.',
-    image: 'images/makom.jpg',
+    image: 'https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?w=900&q=80',
     audio: 'audio/Makom.wav',
   },
   {
@@ -58,7 +58,7 @@ const chapters = [
     subtitle: 'Chapter VI',
     description:
       'Archive recordings of the sea — hydrophone, surface, and shore — from expeditions before the diversion of the Amu Darya. The last sounds of a living body of water.',
-    image: 'images/clouds.jpg',
+    image: 'https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=900&q=80',
     audio: 'audio/Clouds.wav',
   },
 ]

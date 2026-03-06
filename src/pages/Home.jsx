@@ -27,7 +27,7 @@ export default function Home() {
           >
             <div className="chapter-card__image-wrap">
               <img
-                src={`${import.meta.env.BASE_URL}${chapter.image}`}
+                src={chapter.image}
                 alt={chapter.title}
                 className="chapter-card__image"
                 loading="lazy"
