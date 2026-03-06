@@ -111,7 +111,7 @@ export default function Chapter() {
       {/* Image */}
       <div className="chapter-image-wrap">
         <img
-          src={chapter.image}
+          src={`${import.meta.env.BASE_URL}${chapter.image}`}
           alt={chapter.title}
           className="chapter-image"
         />
